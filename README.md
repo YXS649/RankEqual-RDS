@@ -1,6 +1,6 @@
-# RankEqual-RDS
+# SPAR
 
-The main entry and supporting files of RankEqual-RDS are available in this
+The main entry and supporting files of SPAR are available in this
 repository. The core source-reliability scoring and training modules are not
 included while the paper is under review. The complete implementation will be
 released after the paper is accepted.
@@ -12,8 +12,8 @@ released after the paper is accepted.
 The project uses Python 3.9 and PyTorch.
 
 ```bash
-git clone https://github.com/YXS649/RankEqual-RDS.git
-cd RankEqual-RDS
+git clone https://github.com/YXS649/SPAR.git
+cd SPAR
 python -m pip install -r requirements.txt
 ```
 

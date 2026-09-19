@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run only RankEqualRDS-v1 on SEED / SEED-IV (transductive LOSO)."""
+"""SPAR entry point for SEED / SEED-IV (transductive LOSO)."""
 import argparse
 import csv
 import json
@@ -12,12 +12,12 @@ import time
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
-from rank_equal_rds import data
-from rank_equal_rds.model import RankEqualNet
-from rank_equal_rds.trainer import fit
-from rank_equal_rds.metrics import classification_metrics_from_probabilities
+from spar import data
+from spar.model import RankEqualNet
+from spar.trainer import fit
+from spar.metrics import classification_metrics_from_probabilities
 
-PROTOCOL = 'RANK_EQUAL_RDS_V1'
+PROTOCOL = 'SPAR_V1'
 
 DEFAULT_DATA_DIRS = {
     # Home-relative defaults keep the repository portable while allowing the

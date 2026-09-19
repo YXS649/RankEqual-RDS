@@ -1,4 +1,4 @@
-"""Shared MLP and fourteen source heads; no alternative architectures."""
+"""SPAR shared MLP and fourteen source heads."""
 import torch.nn as nn
 import torch.nn.functional as F
 

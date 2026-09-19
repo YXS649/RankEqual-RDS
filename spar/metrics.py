@@ -1,4 +1,4 @@
-"""Metrics for the single post-training target-label evaluation stage."""
+"""SPAR metrics for post-training target-label evaluation."""
 import numpy as np
 
 def classification_metrics_from_probabilities(probabilities, targets):

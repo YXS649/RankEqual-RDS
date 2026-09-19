@@ -1,4 +1,4 @@
-"""SEED/SEED-IV DE-LDS loading; preserves the original flattening and normalization."""
+"""SPAR SEED/SEED-IV DE-LDS loading and normalization."""
 from __future__ import annotations
 import os
 import numpy as np
